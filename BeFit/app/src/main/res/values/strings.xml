@@ -1,0 +1,572 @@
+<resources>
+    <string name="app_name">Be Fit</string>
+    <string name="perfil">ADVANCES</string>
+    <string name="guia">EXERCISE GUIDE</string>
+    <string name="rutinas">ROUTINES</string>
+    <string name="nutricion">NUTRITION</string>
+
+    <string name="nombre_avance">Date</string>
+    <string name="estatura">Waist (cm)</string>
+    <string name="peso">Weight (Kg)</string>
+    <string name="edad">Biceps (cm)</string>
+    <string name="guardar">SAVE</string>
+    <string name="avances">SEE ADVANCES</string>
+    <string name="titulo_avs">DATOS AVANCES</string>
+
+    <string name="btn_imc">Calculate IMC</string>
+    <string name="btn_proteina">Calculate Protein Intake</string>
+    <string name="btn_agua">Water Intake</string>
+    <string name="btn_calorias">Calories Table</string>
+
+    <string name="titulo_imc">CALCULATE IMC</string>
+    <string name="titulo_imcc">(BODY MASS INDEX)</string>
+    <string name="nutri_peso">Enter your weight in Kg.</string>
+    <string name="nutri_altura">Enter your height in cm.</string>
+    <string name="nutri_calcular">Calculate</string>
+    <string name="nutri_res_riesgo">Result:</string>
+    <string name="nutri_res_imc">IMC:</string>
+
+    <string name="titulo_proteina">CALCULATE PROTEIN INTAKE</string>
+    <string name="titulo_proteinaa">HOW MUCH PER DAY</string>
+    <string name="nutri_actfisica">Physical Activity:</string>
+    <string name="nutri_af_sedentario">Sedentary</string>
+    <string name="nutri_af_moderado">Moderado</string>
+    <string name="nutri_af_intenso">Intense</string>
+
+    <string name="titulo_agua">WATER INTAKE</string>
+
+    <string name="titulo_calorias">CALORIES TABLE</string>
+    <string name="titulo_calorias2">Kcal   Pro   Ft   Ch</string>
+
+    <string-array name="nutrientes">
+        <item>Whole Milk</item>
+        <item>Whole Yogurt</item>
+        <item>Fresh Cheese</item>
+        <item>Mozzarella Cheese</item>
+        <item>Whole Egg</item>
+        <item>Clara de Huevo</item>
+        <item>Egg Yolk</item>
+        <item>Meat (Chicken Breast)</item>
+        <item>Meat (Lomo Magro)</item>
+        <item>Cold Meat (Chorizo)</item>
+        <item>Cold Meat and Sausage (Mortadella)</item>
+        <item>Fish Meat(Trout)</item>
+        <item>Fish Meat (Salmon)</item>
+        <item>Canned Fish (Tuna in oil)</item>
+        <item>Canned Fish (Tuna un water)</item>
+        <item>Canned Fish (Sardines in oil)</item>
+        <item>Seefood (Lobster)</item>
+        <item>Seefood (Octopus)</item>
+        <item>Vegetable (Onion)</item>
+        <item>Vegetable (Lettuce)</item>
+        <item>Vegetable (Palmito)</item>
+        <item>Vegetable (Potato)</item>
+        <item>Vegetable (Frech Fries)</item>
+        <item>Vegetable (Cucumber)</item>
+        <item>Vegetable (Tomato)</item>
+        <item>Vegetable (Carrot)</item>
+        <item>Vegetable (Cabbage)</item>
+        <item>Avocado Fruit</item>
+        <item>Kiwi Fruit</item>
+        <item>Tangerine Fruit</item>
+        <item>Apple Fruit</item>
+        <item>Pineapple Fruit</item>
+        <item>Banana Fruit</item>
+        <item>Graperfruit Fruit</item>
+        <item>Watermelon Fruit</item>
+        <item>Coca Cola</item>
+        <item>Cola Light</item>
+        <item>Coffee</item>
+        <item>Orange Juice</item>
+        <item>Beer Drink</item>
+        <item>Drink Ron</item>
+        <item>White Wine Drink</item>
+        <item>Red Wine Drink</item>
+        <item>Vodka Drink</item>
+        <item>Wisky Drink</item>
+    </string-array>
+
+    <string-array name="guiaejercicios">
+        <item>PECTORALS</item>
+        <item>BACK</item>
+        <item>BICEPS</item>
+        <item>TRICEPS</item>
+        <item>SHOULDERS</item>
+        <item>LEGS</item>
+        <item>ABDOMINALS</item>
+    </string-array>
+
+    <string-array name="guiaejerciciosinfo">
+        <item> The pectoral muscles are the muscles located on the surface of the chest. There are two pectoral muscles, the pectoralis minor and the pectoralis major. </item>
+                <item> The Back is the posterior area of ​​the trunk, also known as the dorsal region or back. In the back part of the body are the muscles of the back, they are the ones that determine a good posture and ensure the protection of the spinal cord. </item>
+                <item> The biceps brachii muscle is found in the arm, covering the anterior brachial and coracobrachial muscles. In its superior sector it presents a long portion (that descends by the humerus) and a short portion (originated by a tendon that shares with the coracobrachial muscle). </item>
+                <item> Muscle of the posterior region of the arm formed by three portions in its upper part, which are inserted in the shoulder blade and the posterior surface of the humerus, and joined in a single part in its lower part that is inserted in the olecranon of the ulna . The triceps determines the extension of the forearm and the abduction and extension of the arm. </item>
+                <item> The shoulder is the joint that joins the arm with the trunk and is surrounded by muscles, tendons and other structures that allow movement. It is the articulation with more mobility in our body and the work of the muscles that surround it can be of great help to look better. </item>
+                <item> Legs are one of the most important parts of the body when it comes to training in the gym, unfortunately many people leave them aside and do not print the right effort. </item>
+                <item> The muscles of the abdomen are divided into three groups: anterior, lateral and posterior, which are largely the abdominal walls, which are covered by the parietal leaf of the peritoneum, closed superiorly by the diaphragm and inferiorly limited by the pelvis. . </item>
+    </string-array>
+
+    <string name="titulo_pectoral">PECTORAL EXERCISES</string>
+    <string-array name="ejpectoral">
+        <item> Flat Bank Press </item>
+        <item> Inclined Bank Press </item>
+        <item> Declined Bank Press </item>
+        <item> Press of Manos Juntas Bank </item>
+        <item> Opening with Flat Bank Dumbbells </item>
+        <item> Opening with Dumbbells Bank Inclined </item>
+        <item> Opening in Chest Contractor </item>
+        <item> Parallel Bar Funds </item>
+        <item> Pull Over with Dumbbell </item>
+        <item> Pull Over with Bar </item>
+        <item> Press with Dumbbell on Inclined Bank </item>
+        <item> Press with Dumbbell in Plano Bank </item>
+        <item> Bar Press on Machine </item>
+        <item> Cross with Pulleys </item>
+        <item> Arm Push-ups on the Floor </item>
+    </string-array>
+
+    <string name="titulo_espalda">EXERCISE BACK</string>
+    <string-array name="ejespalda">
+        <item> Pulley to the Chest </item>
+        <item> Trasnuca pulley </item>
+        <item> Chest Pulley with Narrow Grip </item>
+        <item> Horizontal Rowing to a Hand with Dumbbell </item>
+        <item> Rowing in Low Pulley Narrow Grip </item>
+        <item> Rowing Machine </item>
+        <item> Horizontal Rowing with Pronation Hands Bar </item>
+        <item> Rowing in T-bar with Chest Support </item>
+        <item> Rowing with Hands Together </item>
+        <item> Dominated with Fixed Bar </item>
+        <item> Dominated with Fixed Bar Straight Grip </item>
+        <item> Pull Over with High Arms Extended Pulley </item>
+        <item> Deadweight </item>
+        <item> Rowing with a Hand Bar </item>
+    </string-array>
+
+    <string name="titulo_biceps">BICEPS EXERCISE</string>
+    <string-array name="ejbiceps">
+        <item> Biceps Curl Bank Scott with Bar </item>
+        <item> Biceps Curl Scott Bank with Dumbbell </item>
+        <item> Standing Biceps Curl with Bar </item>
+        <item> Standing Biceps Curl with Dumbbell </item>
+        <item> Concentrated Biceps Curl with Thigh Support </item>
+        <item> Alternate Biceps Curl Type Hammer </item>
+        <item> Bicep Curl with High Pulley </item>
+        <item> Standing Bicep Curl with Pulley </item>
+        <item> Biceps Curl with Dumbbell in Inclined Bank </item>
+        <item> Biceps Curl Hands in Pronation </item>
+    </string-array>
+
+    <string name="titulo_triceps">TRICEPS EXERCISE</string>
+    <string-array name="ejtriceps">
+        <item> Press French in Banco Plano with Bar </item>
+        <item> French Press on Flat Bench with Dumbbell </item>
+        <item> Press French with Pulley </item>
+        <item> Triceps Extension in High Pulley </item>
+        <item> Extension of Triceps in High Pulley Hands in Supination </item>
+        <item> Extension of Triceps Alternate on Pulley </item>
+        <item> Alternate Vertical Triceps Extension </item>
+        <item> Extension of Triceps to Two Hands with Dumbbell </item>
+        <item> Triceps Extension with Bar </item>
+        <item> Elbow Extension with Dumbbell </item>
+    </string-array>
+
+    <string name="titulo_hombros">SHOULDER EXERCISE</string>
+    <string-array name="ejhombros">
+        <item> Press Trasnuca con Barra </item>
+        <item> Front Press with Bar </item>
+        <item> Press Sitting with Dumbbell </item>
+        <item> Front Press with Wrist Rotation </item>
+        <item> Lateral Elevations of the Arms with Dumbbell </item>
+        <item> Lateral Elevations Trunk Leaning Forward </item>
+        <item> Alternating Front Elevations with Dumbbell </item>
+        <item> Front Lifts on Pulley </item>
+        <item> Front Elevations with Bar </item>
+        <item> Separate Hands Rowing </item>
+        <item> Posterior Deltoids in Machine </item>
+        <item> Lateral Elevations Lying on the Side </item>
+    </string-array>
+
+    <string name="titulo_piernas">LEGS EXERCISE</string>
+    <string-array name="ejpiernas">
+        <item> Squats </item>
+        <item> Press </item>
+                 <item> Extensions </item>
+                 <item> Front Squats </item>
+                 <item> Legs Curl Lying </item>
+                 <item> Knee Flex with Dumbbell </item>
+                 <item> Squat Hack </item>
+                 <item> Alternate Legs Curl Standing on Machine </item>
+                 <item> Trunk Flex to the Front </item>
+                 <item> Adductors in Machine </item>
+                 <item> Low Pulley Adducors </item>
+                 <item> Lifting Foot Heels on Machine </item>
+                 <item> Heel Lift with Dumbbell </item>
+                 <item> Extension of Heels Sitting on Machine </item>
+                 <item> Sitting Heel Elevation with Bar </item>
+                 <item> Dead Weight with Extended Legs </item>
+                 <item> Calf in Machine </item>
+    </string-array>
+
+    <string name="titulo_abdomen">ABDOMEN EXERCISE</string>
+    <string-array name="ejabdomen">
+        <item> Hanging Knee Lift </item>
+                <item> Side Flexions with Weight </item>
+                <item> Crunch on Pulley </item>
+                <item> Abdominal Curl </item>
+                <item> Declined Abdominal Curl </item>
+                <item> Bench Legs Flex </item>
+                <item> Knee Raising in Parallels </item>
+                <item> Rotation of the Trunk with Staff </item>
+                <item> Twist with Weight </item>
+                <item> Suspended Trunk Elevations </item>
+                <item> Lateral Flexion of the Trunk in Bank </item>
+                <item> Leaning of Legs in Inclined Bench </item>
+                <item> Abdominal Shrinking Machine </item>
+                <item> Oblique Shrinking in the Ground </item>
+                <item> Bicycle in the Air </item>
+                <item> Heel Touch </item>
+                <item> Iron </item>
+                <item> Lateral Iron </item>
+                <item> Abdominales con Rueda </item>
+    </string-array>
+
+    <string name="pecho_ej00">PRESS OF BANKING PLANO</string>
+    <string name = "pecho_info_ej00"> Position: Lying face up on a flat bench, with your feet on the ground. \ n \ n
+         Execution: Hold the bar to a width greater than the length of the shoulders, then perform a downward movement until
+     the chest followed by an upward movement. \ n \ n
+         Breathing: Inspire at the moment of doing the downward movement and exhale when performing the upward movement. \ n \ n
+     Muscles involved: chest, shoulder, triceps. </string>
+
+    <string name = "pecho_ej01"> PRESS OF INCLINED BANKING </string>
+         <string name = "pecho_info_ej01"> Position: Sitting on a bench leaning with the feet on the ground. \ n \ n
+         Execution: Hold the bar to a width greater than the length of the shoulders, then perform a downward movement until
+         the chest followed by an upward movement. \ n \ n
+         Breathing: Inspire at the moment of doing the downward movement and exhale when performing the upward movement. \ n \ n
+     Muscles involved: chest, shoulder, triceps. </string>
+
+    <string name = "pecho_ej02"> DECLINED BANK PRESS </string>
+         <string name = "pecho_info_ej02"> Position: Lying on a declined bank, with its feet fixed on the supports of the bank. \ n \ n
+         Execution: Hold the bar to a width greater than the length of the shoulders, then perform a downward movement until
+         the chest followed by an upward movement. \ n \ n
+         Breathing: Inspire at the moment of doing the downward movement and exhale when performing the upward movement. \ n \ n
+     Muscles involved: chest, shoulder, triceps. </string>
+
+    <string name = "pecho_ej03"> PRESS OF BANKING HANDS JOINTS </string>
+         <string name = "pecho_ej04"> OPENING WITH FLAT BANK HANDLES </string>
+         <string name = "pecho_ej05"> OPENING WITH TILT BANK INCLINED </string>
+         <string name = "pecho_ej06"> OPENING WITH CHEST CONTRACTOR </string>
+         <string name = "pecho_ej07"> FUNDS IN PARALLEL BARS </string>
+         <string name = "pecho_ej08"> PULL OVER WITH MANCUERNA </string>
+         <string name = "pecho_ej09"> PULL OVER WITH BAR </string>
+         <string name = "pecho_ej10"> PRESS WITH MANCUERNA IN AN INCLINED BANK </string>
+         <string name = "pecho_ej11"> PRESS WITH MANCUERNA IN BANCO PLANO </string>
+         <string name = "pecho_ej12"> BAR PRESS IN MACHINE </string>
+         <string name = "pecho_ej13"> CROSSING WITH PULLEYS </string>
+         <string name = "pecho_ej14"> ARM FLEXIONS IN THE SOIL </string>
+
+    <string name="titulo_rutinas">ROUTINES</string>
+    <string-array name="rutin">
+        <item>Weekly Routine</item>
+    </string-array>
+
+    <string-array name="rutinass">
+        <item> Fat Burning Plan </item>
+                 <item> Plan To Gain Weight </item>
+                 <item> Beginner Focused Muscle </item>
+                 <item> Beginner Weekly Routine </item>
+    </string-array>
+
+    <string name="titulo_planquemagrasa">ROUTINE BURN FAT</string>
+    <string-array name="dias">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <item>Day 4</item>
+        <item>Day 5</item>
+        <item>Day 6</item>
+    </string-array>
+
+    <string-array name="diaunopg">
+        <item> Flat Bank Press </item>
+                 <item> Cross with Pulleys </item>
+                 <item> Bar Press in Machine </item>
+                 <item> Press with Dumbbell on Inclined Bank </item>
+                 <item> Press of Manos Juntas Bank </item>
+                 <item> Opening with Flat Bank Dumbbells </item>
+                 <item> Parallel Bar Funds </item>
+                 <item> Run </item>
+    </string-array>
+
+    <string-array name="diadospg">
+        <item> Deadweight </item>
+                 <item> Horizontal Rowing with Pronation Hands Bar </item>
+                 <item> Rowing in T-bar with Chest Support </item>
+                 <item> Horizontal Rowing to a Hand with Dumbbell </item>
+                 <item> Dominated with Fixed Bar </item>
+                 <item> Run </item>
+    </string-array>
+
+    <string-array name="diatrespg">
+        <item> Squats </item>
+                 <item> Knee Flex with Dumbbell </item>
+                 <item> Squat Hack </item>
+                 <item> Extensions </item>
+                 <item> Dead Weight with Extended Legs </item>
+                 <item> Legs Curl Lying </item>
+                 <item> Calf on Machine </item>
+                 <item> Elevation of a Heel with Dumbbell </item>
+                 <item> Twist with Weight </item>
+                 <item> Suspended Trunk Elevations </item>
+                 <item> Cruch on Pulley </item>
+                 <item> Run </item>
+    </string-array>
+
+    <string-array name="diacuatropg">
+        <item> Standing Biceps Curl with Bar </item>
+                 <item> Alternate Biceps Curl Type Hammer </item>
+                 <item> Bicep Curl with High Pulley </item>
+                 <item> French Press on Flat Bench with Dumbbell </item>
+                 <item> Triceps Extension with Bar </item>
+                 <item> Extension of Triceps in High Pulley Hands in Supination </item>
+                 <item> Extension of Elbows with Dumbbell </item>
+                 <item> Run </item>
+    </string-array>
+
+    <string-array name="diacincopg">
+        <item>Squat</item>
+        <item>Low Row</item>
+        <item>Chest Press</item>
+        <item>Biceps Curl</item>
+        <item>Tríceps Press</item>
+        <item>Power Pull</item>
+        <item>Sprinter Start</item>
+    </string-array>
+
+    <string-array name="diaseispg">
+        <item> Flat Bank Press </item>
+                 <item> Pulley to the Chest </item>
+                 <item> Squats </item>
+                 <item> Standing Biceps Curl with Bar </item>
+                 <item> Press French in Banco Plano with Bar </item>
+                 <item> Front Press with Bar </item>
+                 <item> Alternating Waves </item>
+                 <item> Double Arm Waves </item>
+                 <item> Run </item>
+    </string-array>
+
+    <string name="titulo_planganarpeso">ROUTINE TO WIN WEIGHT</string>
+    <string-array name="diaunogp">
+        <item> Flat Bank Press </item>
+                 <item> Cross with Pulleys </item>
+                 <item> Bar Press in Machine </item>
+                 <item> Press with Dumbbell on Inclined Bank </item>
+                 <item> Press of Manos Juntas Bank </item>
+                 <item> Opening with Flat Bank Dumbbells </item>
+                 <item> Parallel Bar Funds </item>
+    </string-array>
+
+    <string-array name="diadosgp">
+        <item> Deadweight </item>
+                 <item> Horizontal Rowing with Pronation Hands Bar </item>
+                 <item> Rowing in T-bar with Chest Support </item>
+                 <item> Horizontal Rowing to a Hand with Dumbbell </item>
+                 <item> Dominated with Fixed Bar </item>
+    </string-array>
+
+    <string-array name="diatresgp">
+        <item> Squats </item>
+                 <item> Knee Flex with Dumbbell </item>
+                 <item> Squat Hack </item>
+                 <item> Extensions </item>
+                 <item> Dead Weight with Extended Legs </item>
+                 <item> Legs Curl Lying </item>
+                 <item> Calf on Machine </item>
+                 <item> Elevation of a Heel with Dumbbell </item>
+                 <item> Twist with Weight </item>
+                 <item> Suspended Trunk Elevations </item>
+                 <item> Cruch on Pulley </item>
+    </string-array>
+
+    <string-array name="diacuatrogp">
+        <item> Standing Biceps Curl with Bar </item>
+                 <item> Alternate Biceps Curl Type Hammer </item>
+                 <item> Bicep Curl with High Pulley </item>
+                 <item> French Press on Flat Bench with Dumbbell </item>
+                 <item> Triceps Extension with Bar </item>
+                 <item> Extension of Triceps in High Pulley Hands in Supination </item>
+                 <item> Extension of Elbows with Dumbbell </item>
+    </string-array>
+
+    <string-array name="diacincogp">
+        <item>Squat</item>
+        <item>Low Row</item>
+        <item>Chest Press</item>
+        <item>Biceps Curl</item>
+        <item>Tríceps Press</item>
+        <item>Power Pull</item>
+        <item>Sprinter Start</item>
+    </string-array>
+
+    <string-array name="diaseisgp">
+        <item> Flat Bank Press </item>
+                 <item> Pulley to the Chest </item>
+                 <item> Squats </item>
+                 <item> Standing Biceps Curl with Bar </item>
+                 <item> Press French in Banco Plano with Bar </item>
+                 <item> Front Press with Bar </item>
+                 <item> Alternating Waves </item>
+                 <item> Double Arm Waves </item>
+    </string-array>
+
+    <string name="titulo_musenfo">ROUTINE MUSCLE FOCUSED</string>
+    <string-array name="pectoralesrutina">
+        <item> Routine 1 </item>
+                 <item> Flat Bank Press </item>
+                 <item> Opening with Inclined Bank Dumbbell </item>
+                 <item> Press Declined Bank </item>
+
+                 <item> Routine 2 </item>
+                 <item> Cross with Pulleys </item>
+                 <item> Press Inclined Bank </item>
+                 <item> Press of Manos Juntas Bank </item>
+
+                 <item> Routine 3 </item>
+                 <item> Parallel Bar Funds </item>
+                 <item> Pull Over with Dumbbell </item>
+                 <item> Openings in Chest Contractor </item>
+
+                 <item> Routine 4 </item>
+                 <item> Press Inclined Bank </item>
+                 <item> Press Declined Bank </item>
+                 <item> Opening with Dumbbells Bank Inclined </item>
+
+                 <item> Routine 5 </item>
+                 <item> Opening with Flat Bank Dumbbells </item>
+                 <item> Flat Bank Press </item>
+                 <item> Pull Over with Bar </item>
+    </string-array>
+
+    <string name="titulo_rutsemanal">WEEKLY ROUTINE</string>
+    <string-array name="diass">
+        <item>3 Days</item>
+        <item>4 Days</item>
+        <item>5 Days</item>
+    </string-array>
+
+    <string-array name="detresdias">
+        <item> Day 1 </item>
+                <item> Press Inclined Bank </item>
+                <item> Press Declined Bank </item>
+                <item> Flat Bank Press </item>
+                <item> Opening with Flat Bank Dumbbells </item>
+                <item> Standing Biceps Curl with Dumbbell </item>
+                <item> Concentrated Biceps Curl with Thigh Support </item>
+                <item> Alternate Biceps Curl Type Hammer </item>
+                <item> Elevations of the Trunk in Suspension </item>
+                <item> </item>
+
+                <item> Day 2 </item>
+                <item> Press Trasnuca con Barra </item>
+                <item> Front Press with Bar </item>
+                <item> Lateral Elevations of the Arms with Dumbbell </item>
+                <item> Extensions </item>
+                <item> Legs Curl Lying </item>
+                <item> Squats </item>
+                <item> Press </item>
+                <item> Lifting Foot Heels on Machine </item>
+                <item> </item>
+
+                <item> Day 3 </item>
+                <item> Rowing in T-bar with Chest Support </item>
+                <item> Pulley to the Chest </item>
+                <item> Rowing with a Hand Bar </item>
+                <item> Press French with Pulley </item>
+                <item> Triceps Extension in High Pulley </item>
+                <item> Abdominales con Rueda </item>
+    </string-array>
+
+    <string-array name="decuatrodias">
+        <item> Day 1 </item>
+                <item> Legs Curl Lying </item>
+                <item> Dead Weight with Extended Legs </item>
+                <item> Squats Hack </item>
+                <item> Extension of Heels Sitting on Machine </item>
+                <item> Press Trasnuca con Barra </item>
+                <item> Front Elevations with Bar </item>
+                <item> Press Sitting with Dumbbell </item>
+                <item> </item>
+
+                <item> Day 2 </item>
+                <item> Press Inclined Bank </item>
+                <item> Parallel Bar Funds </item>
+                <item> Opening in Chest Contractor </item>
+                <item> Press Fránces in Flat Bench with Dumbbell </item>
+                <item> Triceps Extension with Bar </item>
+                <item> Extension of Triceps in High Pulley Hands in Supination </item>
+                <item> Extension of Elbows with Dumbbell </item>
+                <item> </item>
+
+                <item> Day 3 </item>
+                <item> Chest Pulley with Narrow Grip </item>
+                <item> Horizontal Rowing to a Hand with Dumbbell </item>
+                <item> Pull Over with High Arms Extended Pulley </item>
+                <item> Biceps Curl Hands in Pronation </item>
+                <item> Biceps Curl Bank Scott with Bar </item>
+                <item> </item>
+
+                <item> Day 4 </item>
+                <item> Iron </item>
+                <item> Abdominales con Rueda </item>
+                <item> Hanging Knee Lift </item>
+                <item> Squats </item>
+                <item> Press </item>
+                <item> Extensions </item>
+                <item> Squat Hack </item>
+    </string-array>
+
+    <string-array name="decincodias">
+        <item> Day 1 </item>
+                <item> Chest Pulley with Narrow Grip </item>
+                <item> Horizontal Rowing to a Hand with Dumbbell </item>
+                <item> Rowing Machine </item>
+                <item> Pull Over with High Arms Extended Pulley </item>
+                <item> Press Fránces in Flat Bench with Dumbbell </item>
+                <item> Triceps Extension with Bar </item>
+                <item> Extension of Triceps in High Pulley Hands in Supination </item>
+                <item> </item>
+
+                <item> Day 2 </item>
+                <item> Extensions </item>
+                <item> Squats </item>
+                <item> Legs Curl Lying </item>
+                <item> Dead Weight with Extended Legs </item>
+                <item> </item>
+
+                <item> Day 3 </item>
+                <item> Press Inclined Bank </item>
+                <item> Parallel Bar Funds </item>
+                <item> Openings in Chest Contractor </item>
+                <item> Standing Bicep Curl with Pulley </item>
+                <item> Biceps Curl Hands in Pronation </item>
+                <item> Biceps Curl Bank Scott with Bar </item>
+                <item> </item>
+
+                <item> Day 4 </item>
+                <item> Press Trasnuca con Barra </item>
+                <item> Front Elevations with Bar </item>
+                <item> Press Sitting with Dumbbell </item>
+                <item> Abdominal Shrinking Machine </item>
+                <item> Oblique Shrinking in the Ground </item>
+                <item> </item>
+
+                <item> Day 5 </item>
+                <item> Lifting Foot Heels on Machine </item>
+                <item> Sitting Heel Elevation with Bar </item>
+                <item> Knee Flex with Dumbbell </item>
+                <item> Hip Extension in Machine </item>
+                <item> Forearm Curl with Pronation Hands Bar </item>
+                <item> Forearm Curl with Hand Bar in Supination </item>
+    </string-array>
+
+</resources>

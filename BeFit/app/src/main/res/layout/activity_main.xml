@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="befit.com.befit.Vistas.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/logobefit"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/muscle"
+        android:elevation="10dp"
+        android:onClick="perfil"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/perfil"
+        android:textColor="@color/colorButtons4"
+        />
+
+    <Button
+        android:id="@+id/btn_guiaejercicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/dumbbell"
+        android:onClick="guia"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/guia"
+        android:textColor="@color/colorButtons4"
+        />
+
+    <Button
+        android:id="@+id/btn_rutina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/weightlifting"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/rutinas"
+        android:textColor="@color/colorButtons4"
+        android:onClick="rutinas"
+        />
+
+    <Button
+        android:id="@+id/btn_nutricion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/apple"
+        android:onClick="nutricion"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/nutricion"
+        android:textColor="@color/colorButtons4"
+        />
+
+</LinearLayout>

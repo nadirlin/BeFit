@@ -1,0 +1,574 @@
+<resources>
+    <string name="app_name">Be Fit</string>
+    <string name="perfil">AVANCES</string>
+    <string name="guia">GUÍA DE EJERCICIOS</string>
+    <string name="rutinas">RUTINAS</string>
+    <string name="nutricion">NUTRICIÓN</string>
+
+    <string name="nombre_avance">Fecha</string>
+    <string name="estatura">Cintura (cm)</string>
+    <string name="peso">Peso (Kg)</string>
+    <string name="edad">Biceps (cm)</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="avances">VER AVANCES</string>
+    <string name="titulo_avs">DATOS AVANCES</string>
+
+    <string name="btn_imc">Calcular IMC</string>
+    <string name="btn_proteina">Calcular Ingesta Proteina</string>
+    <string name="btn_agua">Ingesta de Agua</string>
+    <string name="btn_calorias">Tabla de Calorias</string>
+
+    <string name="titulo_imc">CALCULAR IMC</string>
+    <string name="titulo_imcc">(ÍNDICE DE MASA CORPORAL)</string>
+    <string name="nutri_peso">Ingrese su peso en Kg.</string>
+    <string name="nutri_altura">Ingrese su altura en cm.</string>
+    <string name="nutri_calcular">Calcular</string>
+    <string name="nutri_res_riesgo">Resultado:</string>
+    <string name="nutri_res_imc">IMC:</string>
+
+    <string name="titulo_proteina">CALCULAR INGESTA DE PROTEINA</string>
+    <string name="titulo_proteinaa">CUANTO INGERIR POR DÍA</string>
+    <string name="nutri_actfisica">Actividad Física:</string>
+    <string name="nutri_af_sedentario">Sedentario</string>
+    <string name="nutri_af_moderado">Moderado</string>
+    <string name="nutri_af_intenso">Intenso</string>
+
+    <string name="titulo_agua">INGESTA DE AGUA</string>
+
+    <string name="titulo_calorias">TABLA DE CALORIAS</string>
+    <string name="titulo_calorias2">Kcal   Pro   Ft   Ch</string>
+
+    <string-array name="nutrientes">
+        <item>Leche Entera</item>
+        <item>Yogurt Entero</item>
+        <item>Queso Fresco</item>
+        <item>Queso Mozzarella</item>
+        <item>Huevo Entero</item>
+        <item>Clara de Huevo</item>
+        <item>Yema de Huevo</item>
+        <item>Carne (Pollo Pechuga)</item>
+        <item>Carne (Lomo Magro)</item>
+        <item>Carne Frías (Chorizo)</item>
+        <item>Carne Frías y Salchichas (Mortadela)</item>
+        <item>Carne de Pescado (Trucha)</item>
+        <item>Carne de Pescado (Salmón)</item>
+        <item>Pescado Enlatado (Atún en aceite)</item>
+        <item>Pescado Enlatado (Atún en agua)</item>
+        <item>Pescado Enlatado (Sardinas en aceite)</item>
+        <item>Marisco (Langosta)</item>
+        <item>Marisco (Pulpo)</item>
+        <item>Vegetal (Cebolla)</item>
+        <item>Vegetal (Lechuga)</item>
+        <item>Vegetal (Palmito)</item>
+        <item>Vegetal (Patata)</item>
+        <item>Vegetal (Patatas Fritas)</item>
+        <item>Vegetal (Pepino)</item>
+        <item>Vegetal (Tomate)</item>
+        <item>Vegetal (Zanahoria)</item>
+        <item>Vegetal (Repollo)</item>
+        <item>Fruta Aguacate</item>
+        <item>Fruta Kiwi</item>
+        <item>Fruta Mandarina</item>
+        <item>Fruta Manzana</item>
+        <item>Fruta Piña</item>
+        <item>Fruta Plátano</item>
+        <item>Fruta Pomelo</item>
+        <item>Fruta Sandía</item>
+        <item>Bebida Coca Cola</item>
+        <item>Bebida Coca Cola Light</item>
+        <item>Bebida Café</item>
+        <item>Zumo de Naranja</item>
+        <item>Bebida Cerveza</item>
+        <item>Bebida Ron</item>
+        <item>Bebida Vino Blanco</item>
+        <item>Bebida Vino Tinto</item>
+        <item>Bebida Vodka</item>
+        <item>Bebida Wisky</item>
+    </string-array>
+
+    <string-array name="guiaejercicios">
+        <item>PECTORALES</item>
+        <item>ESPALDA</item>
+        <item>BICEPS</item>
+        <item>TRICEPS</item>
+        <item>HOMBROS</item>
+        <item>PIERNAS</item>
+        <item>ABDOMINALES</item>
+    </string-array>
+
+    <string-array name="guiaejerciciosinfo">
+        <item>Los músculos pectorales son los músculos localizados en la superficie del tórax. Existen dos músculos pectorales, el pectoral menor y el pectoral mayor.</item>
+        <item>La Espalda es la zona posterior del tronco, también es conocida como región dorsal o dorso. En la parte posterior del cuerpo están los músculos de la espalda, ellos son los que determinan una buena postura y aseguran la protección de la medula espinal.</item>
+        <item>El músculo bíceps braquial se encuentra en el brazo, cubriendo los músculos braquial anterior y coracobraquial. En su sector superior presenta una porción larga (que desciende por el húmero) y una porción corta (originada por un tendón que comparte con el músculo coracobraquial).</item>
+        <item>Músculo de la región posterior del brazo formado por tres porciones en su parte superior, que se insertan en el omóplato y en la superficie posterior del húmero, y unidas en una sola en su parte inferior que se inserta en el olécranon del cúbito. El tríceps determina la extensión del antebrazo y la abducción y extensión del brazo.</item>
+        <item>El hombro es la articulación que une el brazo con el tronco y se encuentra rodeada de músculos, tendones y demás estructuras que permiten el movimiento. Es la artículación con mayor movilidad en nuestro cuerpo y el trabajo de los músculos que la rodean pueden ser de gran ayuda para lucir mejor.</item>
+        <item>Las Piernas son una de las partes del cuerpo más importantes a la hora de entrenar en el gimnasio, lamentablemente mucha gente las deja de lado y no le imprime el esfuerzo adecuado.</item>
+        <item>Los músculos del abdomen se distribuyen en tres grupos: anterior, lateral y posterior, que constituyen en gran parte las paredes abdominales, las cuales están recubiertas por la hoja parietal del peritoneo, cerrada superiormente por el diafragma e inferiormente limitada por la pelvis.</item>
+    </string-array>
+
+    <string name="titulo_pectoral">EJERCICIOS PECTORALES</string>
+    <string-array name="ejpectoral">
+        <item>Press de Banca Plano</item>
+        <item>Press de Banca Inclinado</item>
+        <item>Press de Banca Declinado</item>
+        <item>Press de Banca Manos Juntas</item>
+        <item>Apertura con Mancuernas Banco Plano</item>
+        <item>Apertura con Mancuernas Banco Inclinado</item>
+        <item>Apertura en Contractor de Pecho</item>
+        <item>Fondos en Barras Paralelas</item>
+        <item>Pull Over con Mancuerna</item>
+        <item>Pull Over con Barra</item>
+        <item>Press con Mancuerna en Banco Inclinado</item>
+        <item>Press con Mancuerna en Banco Plano</item>
+        <item>Press de Barra en Maquina</item>
+        <item>Cruce con Poleas</item>
+        <item>Flexiones de Brazo en el Suelo</item>
+    </string-array>
+
+    <string name="titulo_espalda">EJERCICIOS ESPALDA</string>
+    <string-array name="ejespalda">
+        <item>Polea al Pecho</item>
+        <item>Polea Trasnuca</item>
+        <item>Polea al Pecho con Agarre Estrecho</item>
+        <item>Remo Horizontal a una Mano con Mancuerna</item>
+        <item>Remo en Polea Baja Agarre Estrecho</item>
+        <item>Remo en Maquina</item>
+        <item>Remo Horizontal con Barra Manos en Pronación</item>
+        <item>Remo en Barra T con Apoyo al Pecho</item>
+        <item>Remo al Cuello con Manos Juntas</item>
+        <item>Dominadas con Barra Fija</item>
+        <item>Dominadas con Barra Fija Agarre Estrecho</item>
+        <item>Pull Over con Polea Alta Brazos Extendidos</item>
+        <item>Peso Muerto</item>
+        <item>Remo con Barra a una Mano</item>
+    </string-array>
+
+    <string name="titulo_biceps">EJERCICIOS BÍCEPS</string>
+    <string-array name="ejbiceps">
+        <item>Curl de Bíceps Banco Scott con Barra</item>
+        <item>Curl de Bíceps Banco Scott con Mancuerna</item>
+        <item>Curl de Bíceps de Pie con Barra</item>
+        <item>Curl de Bíceps de Pie con Mancuerna</item>
+        <item>Curl de Bíceps Concentrado con Apoyo en el Muslo</item>
+        <item>Curl de Bíceps Alterno Tipo Martillo</item>
+        <item>Curl de Bíceps con Polea Alta</item>
+        <item>Curl de Bíceps de Pie con Polea</item>
+        <item>Curl de Bíceps con Mancuerna en Banco Inclinado</item>
+        <item>Curl de Bíceps Manos en Pronación</item>
+    </string-array>
+
+    <string name="titulo_triceps">EJERCICIOS TRICEPS</string>
+    <string-array name="ejtriceps">
+        <item>Press Francés en Banco Plano con Barra</item>
+        <item>Press Francés en Banco Plano con Mancuerna</item>
+        <item>Press Francés con Polea</item>
+        <item>Extensión de Triceps en Polea Alta</item>
+        <item>Extensión de Triceps en Polea Alta Manos en Supinación</item>
+        <item>Extensión de Triceps Alternada en Polea</item>
+        <item>Extensión de Triceps Vertical Alternada</item>
+        <item>Extensión de Triceps a dos Manos con Mancuerna</item>
+        <item>Extensión de Triceps con Barra</item>
+        <item>Extensión de Codo con Mancuerna</item>
+    </string-array>
+
+    <string name="titulo_hombros">EJERCICIOS HOMBROS</string>
+    <string-array name="ejhombros">
+        <item>Press Trasnuca con Barra</item>
+        <item>Press Frontal con Barra</item>
+        <item>Press Sentado con Mancuerna</item>
+        <item>Press Frontal con Rotación de la Muñeca</item>
+        <item>Elevaciones Laterales de los Brazos con Mancuerna</item>
+        <item>Elevaciones Laterales Tronco Inclinado Hacia Adelante</item>
+        <item>Elevaciones Frontales Alternas con Mancuerna</item>
+        <item>Elevaciones Frontales en Polea</item>
+        <item>Elevaciones Frontales con Barra</item>
+        <item>Remo al Cuello Manos Separadas</item>
+        <item>Deltoides Posterior en Maquina</item>
+        <item>Elevaciones Laterales Acostado de Lado</item>
+    </string-array>
+
+    <string name="titulo_piernas">EJERCICIOS PIERNAS</string>
+    <string-array name="ejpiernas">
+        <item>Sentadillas</item>
+        <item>Prensa</item>
+        <item>Extensiones</item>
+        <item>Sentadilla Frontal</item>
+        <item>Curl de Piernas Acostado</item>
+        <item>Flexión de Rodillas con Mancuerna</item>
+        <item>Sentadilla Hack</item>
+        <item>Curl de Piernas Alterno de Pie en Maquina</item>
+        <item>Flexión de Tronco al Frente</item>
+        <item>Aductores en Máquina</item>
+        <item>Aductores en Polea Baja</item>
+        <item>Elevación de Talones de Pie en Máquina</item>
+        <item>Elevación de Talón con Mancuerna</item>
+        <item>Extensión de Talones Sentado en Máquina</item>
+        <item>Elevación de Talones Sentado con Barra</item>
+        <item>Peso Muerto con Piernas Extendidas</item>
+        <item>Pantorrilla en Máquina</item>
+    </string-array>
+
+    <string name="titulo_abdomen">EJERCICIOS ABDOMEN</string>
+    <string-array name="ejabdomen">
+        <item>Elevación de Rodillas Colgando</item>
+        <item>Flexiones Laterales con Peso</item>
+        <item>Crunch en Polea</item>
+        <item>Curl Abdominal</item>
+        <item>Curl Abdominal Declinado</item>
+        <item>Flexión de Piernas en Banca</item>
+        <item>Elevación de Rodillas en Paralelas</item>
+        <item>Rotación del Tronco con Bastón</item>
+        <item>Twist con Peso</item>
+        <item>Elevaciones del Tronco en Suspensión</item>
+        <item>Flexión Lateral del Tronco en Banco</item>
+        <item>Elevación de Piernas en Banco Inclinado</item>
+        <item>Encogimientos Abdominales en Máquina</item>
+        <item>Encogimientos de Oblicuos en el Suelo</item>
+        <item>Bicicleta en el Aire</item>
+        <item>Toque de Talón</item>
+        <item>Plancha</item>
+        <item>Plancha Lateral</item>
+        <item>Abdominales con Rueda</item>
+    </string-array>
+
+    <string name="pecho_ej00">PRESS DE BANCA PLANO</string>
+    <string name="pecho_info_ej00">Posición: Acostado boca arriba sobre un banco plano, con los pies en el suelo. \n \n
+        Ejecución: Sostener la barra a un ancho mayor a la longitud de los hombros, luego realizar un movimiento descendente hasta
+    el pecho seguido de un movimiento ascendente.\n \n
+        Respiración: Inspirar al momento de hacer el movimiento descendente y exhalar al realizar el movimiento ascendente. \n\n
+    Músculos implicados: Pectoral, hombro, tríceps.</string>
+
+    <string name="pecho_ej01">PRESS DE BANCA INCLINADO</string>
+    <string name="pecho_info_ej01">Posición: Sentado sobre una banca inclinada con los pies en el suelo. \n \n
+        Ejecución: Sostener la barra a un ancho mayor a la longitud de los hombros, luego realizar un movimiento descendente hasta
+        el pecho seguido de un movimiento ascendente.\n \n
+        Respiración: Inspirar al momento de hacer el movimiento descendente y exhalar al realizar el movimiento ascendente. \n\n
+    Músculos implicados: Pectoral, hombro, tríceps.</string>
+
+    <string name="pecho_ej02">PRESS DE BANCA DECLINADO</string>
+    <string name="pecho_info_ej02">Posición: Acostado de un banco declinado, con los pies fijos en los soportes del banco. \n \n
+        Ejecución: Sostener la barra a un ancho mayor a la longitud de los hombros, luego realizar un movimiento descendente hasta
+        el pecho seguido de un movimiento ascendente.\n \n
+        Respiración: Inspirar al momento de hacer el movimiento descendente y exhalar al realizar el movimiento ascendente. \n\n
+    Músculos implicados: Pectoral, hombro, tríceps.</string>
+
+    <string name="pecho_ej03">PRESS DE BANCA MANOS JUNTAS</string>
+    <string name="pecho_ej04">APERTURA CON MANCUERNAS BANCO PLANO</string>
+    <string name="pecho_ej05">APERTURA CON MANCUERNAS BANCO INCLINADO</string>
+    <string name="pecho_ej06">APERTURA CON CONTRACTOR DE PECHO</string>
+    <string name="pecho_ej07">FONDOS EN BARRAS PARALELAS</string>
+    <string name="pecho_ej08">PULL OVER CON MANCUERNA</string>
+    <string name="pecho_ej09">PULL OVER CON BARRA</string>
+    <string name="pecho_ej10">PRESS CON MANCUERNA EN BANCO INCLINADO</string>
+    <string name="pecho_ej11">PRESS CON MANCUERNA EN BANCO PLANO</string>
+    <string name="pecho_ej12">PRESS DE BARRA EN MÁQUINA</string>
+    <string name="pecho_ej13">CRUCE CON POLEAS </string>
+    <string name="pecho_ej14">FLEXIONES DE BRAZO EN EL SUELO</string>
+
+
+    <string name="titulo_rutinas">RUTINAS</string>
+    <string-array name="rutin">
+        <item>Rutina Semanal</item>
+    </string-array>
+
+    <string-array name="rutinass">
+        <item>Plan Quema Grasa</item>
+        <item>Plan Para Ganar Peso</item>
+        <item>Músculo Enfocado Principiante</item>
+        <item>Rutina Semanal Principiante</item>
+    </string-array>
+
+    <string name="titulo_planquemagrasa">RUTINA QUEMA GRASA</string>
+    <string-array name="dias">
+        <item>Día 1</item>
+        <item>Día 2</item>
+        <item>Día 3</item>
+        <item>Día 4</item>
+        <item>Día 5</item>
+        <item>Día 6</item>
+    </string-array>
+
+    <string-array name="diaunopg">
+        <item>Press de Banca Plano</item>
+        <item>Cruce con Poleas</item>
+        <item>Press de Barra en Máquina</item>
+        <item>Press con Mancuerna en Banco Inclinado</item>
+        <item>Press de Banca Manos Juntas</item>
+        <item>Apertura con Mancuernas Banco Plano</item>
+        <item>Fondos en Barras Paralelas</item>
+        <item>Run</item>
+    </string-array>
+
+    <string-array name="diadospg">
+        <item>Peso Muerto</item>
+        <item>Remo Horizontal con Barra Manos en Pronación</item>
+        <item>Remo en Barra T con Apoyo al Pecho</item>
+        <item>Remo Horizontal a una Mano con Mancuerna</item>
+        <item>Dominadas con Barra Fija</item>
+        <item>Run</item>
+    </string-array>
+
+    <string-array name="diatrespg">
+        <item>Sentadillas</item>
+        <item>Flexión de Rodillas con Mancuerna</item>
+        <item>Sentadilla Hack</item>
+        <item>Extensiones</item>
+        <item>Peso Muerto con Piernas Extendidas</item>
+        <item>Curl de Piernas Acostado</item>
+        <item>Pantorrilla en Maquina</item>
+        <item>Elevación de un Talón con Mancuerna</item>
+        <item>Twist con Peso</item>
+        <item>Elevaciones del Tronco en Suspensión</item>
+        <item>Cruch en Polea</item>
+        <item>Run</item>
+    </string-array>
+
+    <string-array name="diacuatropg">
+        <item>Curl de Bíceps de Pie con Barra</item>
+        <item>Curl de Bíceps Alterno Tipo Martillo</item>
+        <item>Curl de Bíceps con Polea Alta</item>
+        <item>Press Francés en Banco Plano con Mancuerna</item>
+        <item>Extensión de Tríceps con Barra</item>
+        <item>Extensión de Triceps en Polea Alta Manos en Supinación</item>
+        <item>Extensión de Codos con Mancuerna</item>
+        <item>Run</item>
+    </string-array>
+
+    <string-array name="diacincopg">
+        <item>Squat</item>
+        <item>Low Row</item>
+        <item>Chest Press</item>
+        <item>Biceps Curl</item>
+        <item>Tríceps Press</item>
+        <item>Power Pull</item>
+        <item>Sprinter Start</item>
+    </string-array>
+
+    <string-array name="diaseispg">
+        <item>Press de Banca Plano</item>
+        <item>Polea al Pecho</item>
+        <item>Sentadillas</item>
+        <item>Curl de Bíceps de Pie con Barra</item>
+        <item>Press Francés en Banco Plano con Barra</item>
+        <item>Press Frontal con Barra</item>
+        <item>Alternating Waves</item>
+        <item>Double Arm Waves</item>
+        <item>Run</item>
+    </string-array>
+
+    <string name="titulo_planganarpeso">RUTINA PARA GANAR PESO</string>
+    <string-array name="diaunogp">
+        <item>Press de Banca Plano</item>
+        <item>Cruce con Poleas</item>
+        <item>Press de Barra en Máquina</item>
+        <item>Press con Mancuerna en Banco Inclinado</item>
+        <item>Press de Banca Manos Juntas</item>
+        <item>Apertura con Mancuernas Banco Plano</item>
+        <item>Fondos en Barras Paralelas</item>
+    </string-array>
+
+    <string-array name="diadosgp">
+        <item>Peso Muerto</item>
+        <item>Remo Horizontal con Barra Manos en Pronación</item>
+        <item>Remo en Barra T con Apoyo al Pecho</item>
+        <item>Remo Horizontal a una Mano con Mancuerna</item>
+        <item>Dominadas con Barra Fija</item>
+    </string-array>
+
+    <string-array name="diatresgp">
+        <item>Sentadillas</item>
+        <item>Flexión de Rodillas con Mancuerna</item>
+        <item>Sentadilla Hack</item>
+        <item>Extensiones</item>
+        <item>Peso Muerto con Piernas Extendidas</item>
+        <item>Curl de Piernas Acostado</item>
+        <item>Pantorrilla en Maquina</item>
+        <item>Elevación de un Talón con Mancuerna</item>
+        <item>Twist con Peso</item>
+        <item>Elevaciones del Tronco en Suspensión</item>
+        <item>Cruch en Polea</item>
+    </string-array>
+
+    <string-array name="diacuatrogp">
+        <item>Curl de Bíceps de Pie con Barra</item>
+        <item>Curl de Bíceps Alterno Tipo Martillo</item>
+        <item>Curl de Bíceps con Polea Alta</item>
+        <item>Press Francés en Banco Plano con Mancuerna</item>
+        <item>Extensión de Tríceps con Barra</item>
+        <item>Extensión de Triceps en Polea Alta Manos en Supinación</item>
+        <item>Extensión de Codos con Mancuerna</item>
+    </string-array>
+
+    <string-array name="diacincogp">
+        <item>Squat</item>
+        <item>Low Row</item>
+        <item>Chest Press</item>
+        <item>Biceps Curl</item>
+        <item>Tríceps Press</item>
+        <item>Power Pull</item>
+        <item>Sprinter Start</item>
+    </string-array>
+
+    <string-array name="diaseisgp">
+        <item>Press de Banca Plano</item>
+        <item>Polea al Pecho</item>
+        <item>Sentadillas</item>
+        <item>Curl de Bíceps de Pie con Barra</item>
+        <item>Press Francés en Banco Plano con Barra</item>
+        <item>Press Frontal con Barra</item>
+        <item>Alternating Waves</item>
+        <item>Double Arm Waves</item>
+    </string-array>
+
+    <string name="titulo_musenfo">RUTINA MÚSCULO ENFOCADO</string>
+    <string-array name="pectoralesrutina">
+        <item>Rutina 1</item>
+        <item>Press de Banca Plano</item>
+        <item>Apertura con Mancuerna Banco Inclinado</item>
+        <item>Press Banca Declinado</item>
+
+        <item>Rutina 2</item>
+        <item>Cruce con Poleas</item>
+        <item>Press Banca Inclinado</item>
+        <item>Press de Banca Manos Juntas</item>
+
+        <item>Rutina 3</item>
+        <item>Fondos en Barras Paralelas</item>
+        <item>Pull Over con Mancuerna</item>
+        <item>Aperturas en Contractor de Pecho</item>
+
+        <item>Rutina 4</item>
+        <item>Press Banca Inclinado</item>
+        <item>Press Banca Declinado</item>
+        <item>Apertura con Mancuernas Banco Inclinado</item>
+
+        <item>Rutina 5</item>
+        <item>Apertura con Mancuernas Banco Plano</item>
+        <item>Press de Banca Plano</item>
+        <item>Pull Over con Barra</item>
+    </string-array>
+
+    <string name="titulo_rutsemanal">RUTINA SEMANAL</string>
+    <string-array name="diass">
+        <item>3 Días</item>
+        <item>4 Días</item>
+        <item>5 Días</item>
+    </string-array>
+
+    <string-array name="detresdias">
+        <item>Día 1</item>
+        <item>Press Banca Inclinado</item>
+        <item>Press Banca Declinado</item>
+        <item>Press de Banca Plano</item>
+        <item>Apertura con Mancuernas Banco Plano</item>
+        <item>Curl de Bíceps de Pie con Mancuerna</item>
+        <item>Curl de Bíceps Concentrado con Apoyo en el Muslo</item>
+        <item>Curl de Bíceps Alterno Tipo Martillo</item>
+        <item>Elevaciones del Tronco en Suspención</item>
+        <item> </item>
+
+        <item>Día 2</item>
+        <item>Press Trasnuca con Barra</item>
+        <item>Press Frontal con Barra</item>
+        <item>Elevaciones Laterales de los Brazos con Mancuerna</item>
+        <item>Extensiones</item>
+        <item>Curl de Piernas Acostado</item>
+        <item>Sentadillas</item>
+        <item>Prensa</item>
+        <item>Elevación de Talones de Pie en Maquina</item>
+        <item> </item>
+
+        <item>Día 3</item>
+        <item>Remo en Barra T con Apoyo al Pecho</item>
+        <item>Polea al Pecho</item>
+        <item>Remo con Barra a una Mano</item>
+        <item>Press Francés con Polea</item>
+        <item>Extensión de Tríceps en Polea Alta</item>
+        <item>Abdominales con Rueda</item>
+    </string-array>
+
+    <string-array name="decuatrodias">
+        <item>Día 1</item>
+        <item>Curl de Piernas Acostado</item>
+        <item>Peso Muerto con Piernas Extendidas</item>
+        <item>Sentadillas Hack</item>
+        <item>Extensión de Talones Sentado en Máquina</item>
+        <item>Press Trasnuca con Barra</item>
+        <item>Elevaciones Frontales con Barra</item>
+        <item>Press Sentado con Mancuerna</item>
+        <item> </item>
+
+        <item>Día 2</item>
+        <item>Press Banca Inclinado</item>
+        <item>Fondos en Barras Paralelas</item>
+        <item>Apertura en Contractor de Pecho</item>
+        <item>Press Fránces en Banco Plano con Mancuerna</item>
+        <item>Extensión de Tríceps con Barra</item>
+        <item>Extensión de Tríceps en Polea Alta Manos en Supinación</item>
+        <item>Extensión de Codos con Mancuerna</item>
+        <item> </item>
+
+        <item>Día 3</item>
+        <item>Polea al Pecho con Agarre Estrecho</item>
+        <item>Remo Horizontal a una Mano con Mancuerna</item>
+        <item>Pull Over con Polea Alta Brazos Extendidos</item>
+        <item>Curl de Bíceps Manos en Pronación</item>
+        <item>Curl de Bíceps Banco Scott con Barra</item>
+        <item> </item>
+
+        <item>Día 4</item>
+        <item>Plancha</item>
+        <item>Abdominales con Rueda</item>
+        <item>Elevación de Rodillas Colgando</item>
+        <item>Sentadillas</item>
+        <item>Prensa</item>
+        <item>Extensiones</item>
+        <item>Sentadilla Hack</item>
+    </string-array>
+
+    <string-array name="decincodias">
+        <item>Día 1</item>
+        <item>Polea al Pecho con Agarre Estrecho</item>
+        <item>Remo Horizontal a una Mano con Mancuerna</item>
+        <item>Remo en Máquina</item>
+        <item>Pull Over con Polea Alta Brazos Extendidos</item>
+        <item>Press Fránces en Banco Plano con Mancuerna</item>
+        <item>Extensión de Tríceps con Barra</item>
+        <item>Extensión de Tríceps en Polea Alta Manos en Supinación</item>
+        <item> </item>
+
+        <item>Día 2</item>
+        <item>Extensiones</item>
+        <item>Sentadillas</item>
+        <item>Curl de Piernas Acostado</item>
+        <item>Peso Muerto con Piernas Extendidas</item>
+        <item> </item>
+
+        <item>Día 3</item>
+        <item>Press Banca Inclinado</item>
+        <item>Fondos en Barras Paralelas</item>
+        <item>Aperturas en Contractor de Pecho</item>
+        <item>Curl de Bíceps de Pie con Polea</item>
+        <item>Curl de Bíceps Manos en Pronación</item>
+        <item>Curl de Bíceps Banco Scott con Barra</item>
+        <item> </item>
+
+        <item>Día 4</item>
+        <item>Press Trasnuca con Barra</item>
+        <item>Elevaciones Frontales con Barra</item>
+        <item>Press Sentado con Mancuerna</item>
+        <item>Encogimientos Abdominales en Maquina</item>
+        <item>Encogimiento de Oblicuos en el Suelo</item>
+        <item> </item>
+
+        <item>Día 5</item>
+        <item>Elevación de Talones de Pie en Máquina</item>
+        <item>Elevación de Talones Sentado con Barra</item>
+        <item>Flexión de Rodillas con Mancuerna</item>
+        <item>Extensión de la Cadera en Máquina</item>
+        <item>Curl de Antebrazos con Barra Manos en Pronación</item>
+        <item>Curl de Antebrazos con Barra Manos en Supinación</item>
+    </string-array>
+
+
+</resources>

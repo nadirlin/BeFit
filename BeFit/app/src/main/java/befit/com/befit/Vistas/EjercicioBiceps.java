@@ -1,0 +1,101 @@
+package befit.com.befit.Vistas;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+
+import befit.com.befit.BD.AdaptadorDatos;
+import befit.com.befit.BD.AdaptadorGuiaEjercicios;
+import befit.com.befit.BD.GuiaEjerciciosRw;
+import befit.com.befit.R;
+
+public class EjercicioBiceps extends AppCompatActivity {
+
+    ArrayList<GuiaEjerciciosRw> listaGuiaEjercicios;
+    RecyclerView r;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ejercicio_biceps);
+
+        r = (RecyclerView) findViewById(R.id.idRecyclerBic);
+        r.setLayoutManager(new GridLayoutManager(this, 1));
+
+        listaGuiaEjercicios = new ArrayList<>();
+
+        llenarGuiaEjBiceps();
+        AdaptadorGuiaEjercicios a = new AdaptadorGuiaEjercicios(listaGuiaEjercicios);
+
+        a.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                int index = r.getChildAdapterPosition(v);
+                String n = listaGuiaEjercicios.get(r.getChildAdapterPosition(v)).getNombre().toString();
+
+                if(index == 0){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 0);
+                    startActivity(i);
+                }else if(index == 1){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 1);
+                    startActivity(i);
+                }else if(index == 2){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 2);
+                    startActivity(i);
+                }else if(index == 3){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 3);
+                    startActivity(i);
+                }else if(index == 4){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 4);
+                    startActivity(i);
+                }else if(index == 5){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 5);
+                    startActivity(i);
+                }else if(index == 6){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 6);
+                    startActivity(i);
+                }else if(index == 7){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 7);
+                    startActivity(i);
+                }else if(index == 8){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 8);
+                    startActivity(i);
+                }else if(index == 9){
+                    Intent i = new Intent(EjercicioBiceps.this, PlantillaEjerciciosBiceps.class);
+                    i.putExtra("index", 9);
+                    startActivity(i);
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "En proceso...", Toast.LENGTH_SHORT).show();
+                }
+
+
+            }
+        });
+        r.setAdapter(a);
+    }
+
+    private void llenarGuiaEjBiceps(){
+        String ejercicios[] = getResources().getStringArray(R.array.ejbiceps);
+
+        for(String p : ejercicios){
+            listaGuiaEjercicios.add(new GuiaEjerciciosRw(p, "", R.drawable.blanco));
+        }
+    }
+}

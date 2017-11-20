@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="befit.com.befit">
+
+    <application
+        android:name=".BD.RealmBefit"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Vistas.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Vistas.GuiaEjercicios" />
+        <activity android:name=".Vistas.Perfil" />
+        <activity android:name=".Vistas.EjercicioPectoral" />
+        <activity android:name=".Vistas.EjercicioEspalda" />
+        <activity android:name=".Vistas.EjercicioBiceps" />
+        <activity android:name=".Vistas.EjercicioTriceps" />
+        <activity android:name=".Vistas.EjercicioHombros" />
+        <activity android:name=".Vistas.EjercicioPiernas" />
+        <activity android:name=".Vistas.EjercicioAbdominales" />
+        <activity android:name=".Vistas.PerfilDatos" />
+        <activity android:name=".Vistas.NutricionImc" />
+        <activity android:name=".Vistas.Nutricion" />
+        <activity android:name=".Vistas.NutricionProteina" />
+        <activity android:name=".Vistas.NutricionAgua" />
+        <activity android:name=".Vistas.NutricionCalorias" />
+        <activity android:name=".Vistas.PlantillaEjercicios" />
+        <activity android:name=".Vistas.Rutinas" />
+        <activity android:name=".Vistas.PlanQuemaGrasa" />
+        <activity android:name=".Vistas.PlanQuemaGrasaEjercicios" />
+        <activity android:name=".Vistas.PlanGanarPeso" />
+        <activity android:name=".Vistas.PlanGanarPesoEjercicios" />
+        <activity android:name=".Vistas.MusculoEnfocado" />
+        <activity android:name=".Vistas.RutinaSemanal" />
+        <activity android:name=".Vistas.MusculoEnfocadoEjercicios" />
+        <activity android:name=".Vistas.RutinaSemanalEjercicios" />
+        <activity android:name=".Vistas.PlantillaEjerciciosEspalda" />
+        <activity android:name=".Vistas.PlantillaEjerciciosBiceps" />
+        <activity android:name=".Vistas.PlantillaEjerciciosTriceps" />
+        <activity android:name=".Vistas.PlantillaEjerciciosHombro" />
+        <activity android:name=".Vistas.PlantillaEjerciciosPierna" />
+        <activity android:name=".Vistas.PlantillaEjerciciosAbdomen"></activity>
+    </application>
+
+</manifest>

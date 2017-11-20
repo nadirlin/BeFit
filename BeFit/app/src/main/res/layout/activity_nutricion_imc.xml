@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="befit.com.befit.Vistas.NutricionImc">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:text="@string/titulo_imc"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:text="@string/titulo_imcc"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/nutri_peso"/>
+
+    <EditText
+        android:id="@+id/idNutri_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nutri_altura"
+        />
+
+    <EditText
+        android:id="@+id/idNutri_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" "/>
+
+    <Button
+        android:id="@+id/idNutri_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButtons4"
+        android:textColor="@color/btn_text4"
+        android:text="@string/nutri_calcular"
+        android:layout_marginBottom="10dp"
+        android:onClick="calcular_imc"/>
+
+    <TextView
+        android:id="@+id/idNutri_res_imc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/nutri_res_imc"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/idNutri_res_riesgo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/nutri_res_riesgo" />
+
+</LinearLayout>

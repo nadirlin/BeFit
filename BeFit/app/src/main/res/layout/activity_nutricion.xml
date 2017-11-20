@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="befit.com.befit.Vistas.Nutricion">
+
+    <Button
+        android:id="@+id/btn_imc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/scale"
+        android:onClick="irIMC"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/btn_imc"
+        android:textColor="@color/colorButtons4" />
+
+    <Button
+        android:id="@+id/btn_proteina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/beef"
+        android:onClick="irProteina"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/btn_proteina"
+        android:textColor="@color/colorButtons4" />
+
+    <Button
+        android:id="@+id/btn_agua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/hygrometer"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/btn_agua"
+        android:textColor="@color/colorButtons4"
+        android:onClick="irAgua"
+        />
+
+    <Button
+        android:id="@+id/btn_calorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/btn_text4"
+        android:drawableLeft="@drawable/calories"
+        android:shadowColor="@color/colorAccent"
+        android:text="@string/btn_calorias"
+        android:textColor="@color/colorButtons4"
+        android:onClick="irCalorias"
+        />
+
+</LinearLayout>
